@@ -1,0 +1,120 @@
+.b{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body{
+    margin: 0px;
+}
+
+.f{
+    height: 150px;
+    margin-top: 680px;
+    position: absolute;
+}
+
+.dino{
+    height: 270px;
+    margin-top: 560px;
+    position: absolute;
+}
+
+.score{
+    position: absolute;
+    margin-left: 1750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.end{ 
+    overflow-x: hidden;
+    position: absolute;
+    background-image: url("end.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-size: 150px;
+    font-weight: bold;
+    visibility: hidden;
+    
+    
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: rgb(255, 5, 5);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-style: none;
+    font-family:monospace;
+    cursor: pointer;
+}
+
+.font{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 400px;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.font1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 1550px;
+    position: absolute;
+    color: black;
+
+}
+
+.start{
+    background-image: url("start.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-size: 100px;
+    font-weight: bold;
+    
+    
+}
+
+.btn2{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(25, 95, 14);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-style: none;
+    font-family:monospace;
+    cursor: pointer;
+    margin-top: 500px;
+}
+
+.body1{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
